@@ -1,0 +1,40 @@
+<div class="row">
+  <div class="col-md-4 offset-md-4">
+    <div class="card bg-basic text-dark">
+      <div class="card-body">
+        <div class="card-title">
+          <h3>Update Booking</h3>
+        </div>
+
+<!-- Code the update booking form here - Reactive form -->
+        <form [formGroup]="updateBookingForm" (ngSubmit)="updateBooking()">
+          <div class="form-group">
+            <label for="bookingId">Booking Id </label>
+            <input type="text" class="form-control" formControlName="bookingId" id="bookingId">
+          </div>
+          <div class="form-group">
+            <label for="noOfTickets">No of Tickets </label>
+            <input type="number" class="form-control" formControlName="noOfTickets" id="noOfTickets">
+          </div>
+          <div id="noOfTicketsError">
+            <span *ngIf="updateBookingForm.controls.noOfTickets.errors?.required && updateBookingForm.controls.noOfTickets.dirty" class="text-danger">Field Required</span>
+            <span *ngIf="updateBookingForm.controls.noOfTickets.errors?.min && updateBookingForm.controls.noOfTickets.dirty" class="text-danger">Minimum Number of tickets should be 1</span>
+          </div>
+          <div class="form-group">
+            <label for="flightId">Flight Id </label>
+            <input type="text" class="form-control" formControlName="flightId" id="flightId">
+          </div>
+
+          <button class="btn btn-primary" [disabled]="!updateBookingForm.valid">Update Booking</button>
+          <div class="text-danger" id="errorMessage" *ngIf="errorMessage">
+            {{errorMessage}}
+          </div>
+          <div class="text-success" id="successMessage" *ngIf="successMessage">
+            {{successMessage}}
+          </div>
+        </form>
+
+      </div>
+    </div>
+  </div>
+</div>

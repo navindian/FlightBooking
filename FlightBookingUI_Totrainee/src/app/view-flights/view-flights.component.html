@@ -1,0 +1,21 @@
+<h4 class="text-center" style="color:rgb(66, 148, 185)">Welcome to Infy Airlines!</h4>
+<div class="row">
+  <div class="col-md-3 col-10 " *ngFor="let flight of flightDetails; let i=index">
+    <!-- render all the available flights here with Book Tickets button -->
+    <div class="card">
+      <img [src]="imageUrl[i]" class="card-img-top" alt="image"> 
+      <div class="text-center">
+        {{flight.AircraftName}} | {{flight.flightId}}
+      </div>
+      <div class="card-body">
+        
+          <div class="card-header bg-light">Fare: {{flight.fare}}</div>
+          <div class=" card-footer bg-light">Available Seats: {{flight.availableSeats}}</div>
+        
+      </div>
+      <div class="text-center">
+        <button class="btn btn-primary" [disabled]="flight.availableSeats<=0 ||flight.status=='Cancelled'" (click)="sendFlightData(flight)">Book Flight</button>
+      </div>
+    </div>
+  </div>
+</div>

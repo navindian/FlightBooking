@@ -1,0 +1,21 @@
+<div class="jumbotron">
+  <div class="row">
+    <div class="col-md-8 offset-md-2">
+
+     <!-- include customerId,FlightId input fields using ngModel -->
+     <div class="form-inline">
+      <label for="customerId">Customer Id: </label>
+      <input type="text" class="form-control" name="custId" id="customerId" [(ngModel)]="custId">
+      <label for="flightId">Flight Id: </label>
+      <input type="text" class="form-control" name="flightId" id="flightId" [(ngModel)]="flightId">
+      <button (click)="c=custId;f=flightId" class="btn btn-primary">Filter</button>
+      &nbsp;
+      <button (click)="c=null;f=null;custId=null;flightId=null" class="btn btn-secondary">Clear all</button>
+    </div>
+     
+     <!-- include filter and reset buttons  -->
+    </div>
+  </div>
+</div>
+<!-- load the booking component based on the filter conditions -->
+<app-bookings [bookingDetails]="bookings | customerId:c | flightId:f"></app-bookings>

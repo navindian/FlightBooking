@@ -1,0 +1,861 @@
+{
+    "summary": {
+        "success": 13,
+        "failed": 22,
+        "error": true,
+        "disconnected": false,
+        "exitCode": 1
+    },
+    "browsers": [
+        {
+            "browser": {
+                "id": "92294268",
+                "fullName": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/80.0.3987.122 Safari/537.36",
+                "name": "HeadlessChrome 80.0.3987 (Windows 10.0.0)",
+                "state": "DISCONNECTED",
+                "lastResult": {
+                    "startTime": 1583138602852,
+                    "total": 61,
+                    "success": 13,
+                    "failed": 22,
+                    "skipped": 0,
+                    "totalTime": 2093,
+                    "netTime": 1688,
+                    "error": true,
+                    "disconnected": false
+                },
+                "disconnectsCount": 0,
+                "noActivityTimeout": 50000,
+                "disconnectDelay": 2000
+            },
+            "errors": [
+                "An error was thrown in afterAll\nError: Expected spy updateBooking to have been called.\n    at <Jasmine>\n    at http://localhost:9880/_karma_webpack_/src/app/test/update-booking.compoent.ts.spec.ts:54:25\n    at ZoneDelegate.invoke (http://localhost:9880/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:359:1)\n    at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke (http://localhost:9880/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:308:1)\n"
+            ],
+            "results": [
+                {
+                    "fullName": "AppRoutingModule TRM 2 - Check if routes are present",
+                    "description": "TRM 2 - Check if routes are present",
+                    "id": "spec6",
+                    "log": [
+                        "Error: Expected 0 to be 3.",
+                        "    at <Jasmine>",
+                        "    at UserContext.<anonymous> (http://localhost:9880/_karma_webpack_/src/app/test/app.routing.spec.ts:32:22)",
+                        "    at ZoneDelegate.invoke (http://localhost:9880/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:359:1)",
+                        "    at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke (http://localhost:9880/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:308:1)"
+                    ],
+                    "skipped": false,
+                    "disabled": false,
+                    "pending": false,
+                    "success": false,
+                    "suite": [
+                        "AppRoutingModule"
+                    ],
+                    "time": 269,
+                    "executedExpectationsCount": 1
+                },
+                {
+                    "fullName": "AppRoutingModule TRM 1 - Check whether the Catchall is provided",
+                    "description": "TRM 1 - Check whether the Catchall is provided",
+                    "id": "spec5",
+                    "log": [
+                        "TypeError: Cannot read property 'path' of undefined",
+                        "    at <Jasmine>",
+                        "    at UserContext.<anonymous> (http://localhost:9880/_karma_webpack_/src/app/test/app.routing.spec.ts:7:49)",
+                        "    at ZoneDelegate.invoke (http://localhost:9880/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:359:1)",
+                        "    at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke (http://localhost:9880/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:308:1)",
+                        "    at ZoneDelegate.invoke (http://localhost:9880/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:358:1)",
+                        "    at Zone.run (http://localhost:9880/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:124:1)",
+                        "    at runInTestZone (http://localhost:9880/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:561:1)",
+                        "    at UserContext.<anonymous> (http://localhost:9880/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:576:1)",
+                        "    at <Jasmine>"
+                    ],
+                    "skipped": false,
+                    "disabled": false,
+                    "pending": false,
+                    "success": false,
+                    "suite": [
+                        "AppRoutingModule"
+                    ],
+                    "time": 3,
+                    "executedExpectationsCount": 1
+                },
+                {
+                    "fullName": "AppComponent should have as title 'FlightBookingUI'",
+                    "description": "should have as title 'FlightBookingUI'",
+                    "id": "spec1",
+                    "log": [
+                        "1. If 'app-verify' is an Angular component, then verify that it is part of this module.",
+                        "2. If 'app-verify' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message. (\"",
+                        "<!-- Include the router outlet to load all components -->",
+                        "</div>",
+                        "'app-verify' is not a known element:",
+                        "1. If 'app-verify' is an Angular component, then verify that it is part of this module.",
+                        "2. If 'app-verify' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message. (\"",
+                        "<!-- Include the router outlet to load all components -->",
+                        "</div>",
+                        "[ERROR ->]<app-verify></app-verify>\"): ng:///DynamicTestModule/AppComponent.html@17:0",
+                        "error properties: Object({ ngSyntaxError: true, ngParseErrors: [ 'app-verify' is not a known element:",
+                        "[ERROR ->]<app-verify></app-verify>\"): ng:///DynamicTestModule/AppComponent.html@17:0 ] })",
+                        "Error: Template parse errors:",
+                        "    at syntaxError (http://localhost:9880/_karma_webpack_/node_modules/@angular/compiler/fesm2015/compiler.js:2175:1)",
+                        "    at TemplateParser.parse (http://localhost:9880/_karma_webpack_/node_modules/@angular/compiler/fesm2015/compiler.js:11388:1)",
+                        "    at JitCompiler._parseTemplate (http://localhost:9880/_karma_webpack_/node_modules/@angular/compiler/fesm2015/compiler.js:25963:1)",
+                        "    at JitCompiler._compileTemplate (http://localhost:9880/_karma_webpack_/node_modules/@angular/compiler/fesm2015/compiler.js:25951:61)",
+                        "    at http://localhost:9880/_karma_webpack_/node_modules/@angular/compiler/fesm2015/compiler.js:25895:1",
+                        "    at <Jasmine>",
+                        "    at JitCompiler._compileComponents (http://localhost:9880/_karma_webpack_/node_modules/@angular/compiler/fesm2015/compiler.js:25895:1)",
+                        "    at http://localhost:9880/_karma_webpack_/node_modules/@angular/compiler/fesm2015/compiler.js:25815:1",
+                        "    at Object.then (http://localhost:9880/_karma_webpack_/node_modules/@angular/compiler/fesm2015/compiler.js:2166:27)",
+                        "    at JitCompiler._compileModuleAndAllComponents (http://localhost:9880/_karma_webpack_/node_modules/@angular/compiler/fesm2015/compiler.js:25813:1)",
+                        "1. If 'app-verify' is an Angular component, then verify that it is part of this module.",
+                        "2. If 'app-verify' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message. (\"",
+                        "<!-- Include the router outlet to load all components -->",
+                        "</div>",
+                        "Error: Template parse errors:",
+                        "'app-verify' is not a known element:",
+                        "1. If 'app-verify' is an Angular component, then verify that it is part of this module.",
+                        "2. If 'app-verify' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message. (\"",
+                        "<!-- Include the router outlet to load all components -->",
+                        "</div>",
+                        "[ERROR ->]<app-verify></app-verify>\"): ng:///DynamicTestModule/AppComponent.html@17:0",
+                        "error properties: Object({ ngSyntaxError: true, ngParseErrors: [ 'app-verify' is not a known element:",
+                        "[ERROR ->]<app-verify></app-verify>\"): ng:///DynamicTestModule/AppComponent.html@17:0 ] })",
+                        "    at syntaxError (http://localhost:9880/_karma_webpack_/node_modules/@angular/compiler/fesm2015/compiler.js:2175:1)",
+                        "    at TemplateParser.parse (http://localhost:9880/_karma_webpack_/node_modules/@angular/compiler/fesm2015/compiler.js:11388:1)",
+                        "    at JitCompiler._parseTemplate (http://localhost:9880/_karma_webpack_/node_modules/@angular/compiler/fesm2015/compiler.js:25963:1)",
+                        "    at JitCompiler._compileTemplate (http://localhost:9880/_karma_webpack_/node_modules/@angular/compiler/fesm2015/compiler.js:25951:61)",
+                        "    at http://localhost:9880/_karma_webpack_/node_modules/@angular/compiler/fesm2015/compiler.js:25895:1",
+                        "    at <Jasmine>",
+                        "    at JitCompiler._compileComponents (http://localhost:9880/_karma_webpack_/node_modules/@angular/compiler/fesm2015/compiler.js:25895:1)",
+                        "    at http://localhost:9880/_karma_webpack_/node_modules/@angular/compiler/fesm2015/compiler.js:25815:1",
+                        "    at Object.then (http://localhost:9880/_karma_webpack_/node_modules/@angular/compiler/fesm2015/compiler.js:2166:27)",
+                        "    at JitCompiler._compileModuleAndAllComponents (http://localhost:9880/_karma_webpack_/node_modules/@angular/compiler/fesm2015/compiler.js:25813:1)"
+                    ],
+                    "skipped": false,
+                    "disabled": false,
+                    "pending": false,
+                    "success": false,
+                    "suite": [
+                        "AppComponent"
+                    ],
+                    "time": 142,
+                    "executedExpectationsCount": 2
+                },
+                {
+                    "fullName": "AppComponent should create the app",
+                    "description": "should create the app",
+                    "id": "spec0",
+                    "log": [
+                        "1. If 'app-verify' is an Angular component, then verify that it is part of this module.",
+                        "2. If 'app-verify' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message. (\"",
+                        "<!-- Include the router outlet to load all components -->",
+                        "</div>",
+                        "'app-verify' is not a known element:",
+                        "1. If 'app-verify' is an Angular component, then verify that it is part of this module.",
+                        "2. If 'app-verify' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message. (\"",
+                        "<!-- Include the router outlet to load all components -->",
+                        "</div>",
+                        "[ERROR ->]<app-verify></app-verify>\"): ng:///DynamicTestModule/AppComponent.html@17:0",
+                        "error properties: Object({ ngSyntaxError: true, ngParseErrors: [ 'app-verify' is not a known element:",
+                        "[ERROR ->]<app-verify></app-verify>\"): ng:///DynamicTestModule/AppComponent.html@17:0 ] })",
+                        "Error: Template parse errors:",
+                        "    at syntaxError (http://localhost:9880/_karma_webpack_/node_modules/@angular/compiler/fesm2015/compiler.js:2175:1)",
+                        "    at TemplateParser.parse (http://localhost:9880/_karma_webpack_/node_modules/@angular/compiler/fesm2015/compiler.js:11388:1)",
+                        "    at JitCompiler._parseTemplate (http://localhost:9880/_karma_webpack_/node_modules/@angular/compiler/fesm2015/compiler.js:25963:1)",
+                        "    at JitCompiler._compileTemplate (http://localhost:9880/_karma_webpack_/node_modules/@angular/compiler/fesm2015/compiler.js:25951:61)",
+                        "    at http://localhost:9880/_karma_webpack_/node_modules/@angular/compiler/fesm2015/compiler.js:25895:1",
+                        "    at <Jasmine>",
+                        "    at JitCompiler._compileComponents (http://localhost:9880/_karma_webpack_/node_modules/@angular/compiler/fesm2015/compiler.js:25895:1)",
+                        "    at http://localhost:9880/_karma_webpack_/node_modules/@angular/compiler/fesm2015/compiler.js:25815:1",
+                        "    at Object.then (http://localhost:9880/_karma_webpack_/node_modules/@angular/compiler/fesm2015/compiler.js:2166:27)",
+                        "    at JitCompiler._compileModuleAndAllComponents (http://localhost:9880/_karma_webpack_/node_modules/@angular/compiler/fesm2015/compiler.js:25813:1)",
+                        "1. If 'app-verify' is an Angular component, then verify that it is part of this module.",
+                        "2. If 'app-verify' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message. (\"",
+                        "<!-- Include the router outlet to load all components -->",
+                        "</div>",
+                        "Error: Template parse errors:",
+                        "'app-verify' is not a known element:",
+                        "1. If 'app-verify' is an Angular component, then verify that it is part of this module.",
+                        "2. If 'app-verify' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message. (\"",
+                        "<!-- Include the router outlet to load all components -->",
+                        "</div>",
+                        "[ERROR ->]<app-verify></app-verify>\"): ng:///DynamicTestModule/AppComponent.html@17:0",
+                        "error properties: Object({ ngSyntaxError: true, ngParseErrors: [ 'app-verify' is not a known element:",
+                        "[ERROR ->]<app-verify></app-verify>\"): ng:///DynamicTestModule/AppComponent.html@17:0 ] })",
+                        "    at syntaxError (http://localhost:9880/_karma_webpack_/node_modules/@angular/compiler/fesm2015/compiler.js:2175:1)",
+                        "    at TemplateParser.parse (http://localhost:9880/_karma_webpack_/node_modules/@angular/compiler/fesm2015/compiler.js:11388:1)",
+                        "    at JitCompiler._parseTemplate (http://localhost:9880/_karma_webpack_/node_modules/@angular/compiler/fesm2015/compiler.js:25963:1)",
+                        "    at JitCompiler._compileTemplate (http://localhost:9880/_karma_webpack_/node_modules/@angular/compiler/fesm2015/compiler.js:25951:61)",
+                        "    at http://localhost:9880/_karma_webpack_/node_modules/@angular/compiler/fesm2015/compiler.js:25895:1",
+                        "    at <Jasmine>",
+                        "    at JitCompiler._compileComponents (http://localhost:9880/_karma_webpack_/node_modules/@angular/compiler/fesm2015/compiler.js:25895:1)",
+                        "    at http://localhost:9880/_karma_webpack_/node_modules/@angular/compiler/fesm2015/compiler.js:25815:1",
+                        "    at Object.then (http://localhost:9880/_karma_webpack_/node_modules/@angular/compiler/fesm2015/compiler.js:2166:27)",
+                        "    at JitCompiler._compileModuleAndAllComponents (http://localhost:9880/_karma_webpack_/node_modules/@angular/compiler/fesm2015/compiler.js:25813:1)"
+                    ],
+                    "skipped": false,
+                    "disabled": false,
+                    "pending": false,
+                    "success": false,
+                    "suite": [
+                        "AppComponent"
+                    ],
+                    "time": 56,
+                    "executedExpectationsCount": 2
+                },
+                {
+                    "fullName": "AppComponent should render title",
+                    "description": "should render title",
+                    "id": "spec2",
+                    "log": [
+                        "1. If 'app-verify' is an Angular component, then verify that it is part of this module.",
+                        "2. If 'app-verify' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message. (\"",
+                        "<!-- Include the router outlet to load all components -->",
+                        "</div>",
+                        "'app-verify' is not a known element:",
+                        "1. If 'app-verify' is an Angular component, then verify that it is part of this module.",
+                        "2. If 'app-verify' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message. (\"",
+                        "<!-- Include the router outlet to load all components -->",
+                        "</div>",
+                        "[ERROR ->]<app-verify></app-verify>\"): ng:///DynamicTestModule/AppComponent.html@17:0",
+                        "error properties: Object({ ngSyntaxError: true, ngParseErrors: [ 'app-verify' is not a known element:",
+                        "[ERROR ->]<app-verify></app-verify>\"): ng:///DynamicTestModule/AppComponent.html@17:0 ] })",
+                        "Error: Template parse errors:",
+                        "    at syntaxError (http://localhost:9880/_karma_webpack_/node_modules/@angular/compiler/fesm2015/compiler.js:2175:1)",
+                        "    at TemplateParser.parse (http://localhost:9880/_karma_webpack_/node_modules/@angular/compiler/fesm2015/compiler.js:11388:1)",
+                        "    at JitCompiler._parseTemplate (http://localhost:9880/_karma_webpack_/node_modules/@angular/compiler/fesm2015/compiler.js:25963:1)",
+                        "    at JitCompiler._compileTemplate (http://localhost:9880/_karma_webpack_/node_modules/@angular/compiler/fesm2015/compiler.js:25951:61)",
+                        "    at http://localhost:9880/_karma_webpack_/node_modules/@angular/compiler/fesm2015/compiler.js:25895:1",
+                        "    at <Jasmine>",
+                        "    at JitCompiler._compileComponents (http://localhost:9880/_karma_webpack_/node_modules/@angular/compiler/fesm2015/compiler.js:25895:1)",
+                        "    at http://localhost:9880/_karma_webpack_/node_modules/@angular/compiler/fesm2015/compiler.js:25815:1",
+                        "    at Object.then (http://localhost:9880/_karma_webpack_/node_modules/@angular/compiler/fesm2015/compiler.js:2166:27)",
+                        "    at JitCompiler._compileModuleAndAllComponents (http://localhost:9880/_karma_webpack_/node_modules/@angular/compiler/fesm2015/compiler.js:25813:1)",
+                        "1. If 'app-verify' is an Angular component, then verify that it is part of this module.",
+                        "2. If 'app-verify' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message. (\"",
+                        "<!-- Include the router outlet to load all components -->",
+                        "</div>",
+                        "Error: Template parse errors:",
+                        "'app-verify' is not a known element:",
+                        "1. If 'app-verify' is an Angular component, then verify that it is part of this module.",
+                        "2. If 'app-verify' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message. (\"",
+                        "<!-- Include the router outlet to load all components -->",
+                        "</div>",
+                        "[ERROR ->]<app-verify></app-verify>\"): ng:///DynamicTestModule/AppComponent.html@17:0",
+                        "error properties: Object({ ngSyntaxError: true, ngParseErrors: [ 'app-verify' is not a known element:",
+                        "[ERROR ->]<app-verify></app-verify>\"): ng:///DynamicTestModule/AppComponent.html@17:0 ] })",
+                        "    at syntaxError (http://localhost:9880/_karma_webpack_/node_modules/@angular/compiler/fesm2015/compiler.js:2175:1)",
+                        "    at TemplateParser.parse (http://localhost:9880/_karma_webpack_/node_modules/@angular/compiler/fesm2015/compiler.js:11388:1)",
+                        "    at JitCompiler._parseTemplate (http://localhost:9880/_karma_webpack_/node_modules/@angular/compiler/fesm2015/compiler.js:25963:1)",
+                        "    at JitCompiler._compileTemplate (http://localhost:9880/_karma_webpack_/node_modules/@angular/compiler/fesm2015/compiler.js:25951:61)",
+                        "    at http://localhost:9880/_karma_webpack_/node_modules/@angular/compiler/fesm2015/compiler.js:25895:1",
+                        "    at <Jasmine>",
+                        "    at JitCompiler._compileComponents (http://localhost:9880/_karma_webpack_/node_modules/@angular/compiler/fesm2015/compiler.js:25895:1)",
+                        "    at http://localhost:9880/_karma_webpack_/node_modules/@angular/compiler/fesm2015/compiler.js:25815:1",
+                        "    at Object.then (http://localhost:9880/_karma_webpack_/node_modules/@angular/compiler/fesm2015/compiler.js:2166:27)",
+                        "    at JitCompiler._compileModuleAndAllComponents (http://localhost:9880/_karma_webpack_/node_modules/@angular/compiler/fesm2015/compiler.js:25813:1)"
+                    ],
+                    "skipped": false,
+                    "disabled": false,
+                    "pending": false,
+                    "success": false,
+                    "suite": [
+                        "AppComponent"
+                    ],
+                    "time": 83,
+                    "executedExpectationsCount": 2
+                },
+                {
+                    "fullName": "Testing_View_Details_Component ViewDetailsComponent : viewAllBookings method implemented according to given requirement",
+                    "description": "ViewDetailsComponent : viewAllBookings method implemented according to given requirement",
+                    "id": "spec16",
+                    "log": [
+                        "Error: Expected undefined to be null. Tip: To check for deep equality, use .toEqual() instead of .toBe().",
+                        "    at <Jasmine>",
+                        "    at UserContext.<anonymous> (http://localhost:9880/_karma_webpack_/src/app/test/book-flight.component.ts.spec.ts:108:40)",
+                        "    at ZoneDelegate.invoke (http://localhost:9880/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:359:1)",
+                        "    at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke (http://localhost:9880/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:308:1)"
+                    ],
+                    "skipped": false,
+                    "disabled": false,
+                    "pending": false,
+                    "success": false,
+                    "suite": [
+                        "Testing_View_Details_Component"
+                    ],
+                    "time": 126,
+                    "executedExpectationsCount": 1
+                },
+                {
+                    "fullName": "Testing_View_Details_Component ViewDetailsComponent : Missing FormControl Property",
+                    "description": "ViewDetailsComponent : Missing FormControl Property",
+                    "id": "spec15",
+                    "log": [
+                        "TypeError: Cannot read property 'attributes' of null",
+                        "    at <Jasmine>",
+                        "    at UserContext.<anonymous> (http://localhost:9880/_karma_webpack_/src/app/test/book-flight.component.ts.spec.ts:98:32)",
+                        "    at ZoneDelegate.invoke (http://localhost:9880/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:359:1)",
+                        "    at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke (http://localhost:9880/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:308:1)",
+                        "    at ZoneDelegate.invoke (http://localhost:9880/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:358:1)",
+                        "    at Zone.run (http://localhost:9880/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:124:1)",
+                        "    at runInTestZone (http://localhost:9880/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:561:1)",
+                        "    at UserContext.<anonymous> (http://localhost:9880/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:576:1)",
+                        "    at <Jasmine>"
+                    ],
+                    "skipped": false,
+                    "disabled": false,
+                    "pending": false,
+                    "success": false,
+                    "suite": [
+                        "Testing_View_Details_Component"
+                    ],
+                    "time": 77,
+                    "executedExpectationsCount": 1
+                },
+                {
+                    "fullName": "Testing_View_Details_Component ViewDetailsComponent should be created",
+                    "description": "ViewDetailsComponent should be created",
+                    "id": "spec14",
+                    "log": [],
+                    "skipped": false,
+                    "disabled": false,
+                    "pending": false,
+                    "success": true,
+                    "suite": [
+                        "Testing_View_Details_Component"
+                    ],
+                    "time": 53,
+                    "executedExpectationsCount": 1
+                },
+                {
+                    "fullName": "Testing_View_Details_Component ViewDetailsComponent: Added required dependencies without additional dependencies",
+                    "description": "ViewDetailsComponent: Added required dependencies without additional dependencies",
+                    "id": "spec17",
+                    "log": [
+                        "TypeError: Cannot read property 'ngInjectableDef' of undefined",
+                        "    at <Jasmine>",
+                        "    at getInjectableDef (http://localhost:9880/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:361:1)",
+                        "    at resolveNgModuleDep (http://localhost:9880/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:30377:1)",
+                        "    at NgModuleRef_.get (http://localhost:9880/_karma_webpack_/node_modules/@angular/core/fesm2015/core.js:31578:1)",
+                        "    at TestBedViewEngine.get (http://localhost:9880/_karma_webpack_/node_modules/@angular/core/fesm2015/testing.js:3774:1)",
+                        "    at http://localhost:9880/_karma_webpack_/node_modules/@angular/core/fesm2015/testing.js:3790:1",
+                        "    at <Jasmine>",
+                        "    at TestBedViewEngine.execute (http://localhost:9880/_karma_webpack_/node_modules/@angular/core/fesm2015/testing.js:3786:1)",
+                        "    at UserContext.<anonymous> (http://localhost:9880/_karma_webpack_/node_modules/@angular/core/fesm2015/testing.js:4143:22)",
+                        "    at ZoneDelegate.invoke (http://localhost:9880/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:359:1)",
+                        "    at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke (http://localhost:9880/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:308:1)"
+                    ],
+                    "skipped": false,
+                    "disabled": false,
+                    "pending": false,
+                    "success": false,
+                    "suite": [
+                        "Testing_View_Details_Component"
+                    ],
+                    "time": 43,
+                    "executedExpectationsCount": 1
+                },
+                {
+                    "fullName": "Testing MessagePipe TCCP 1 - Create an instance of Pipe",
+                    "description": "TCCP 1 - Create an instance of Pipe",
+                    "id": "spec34",
+                    "log": [],
+                    "skipped": false,
+                    "disabled": false,
+                    "pending": false,
+                    "success": true,
+                    "suite": [
+                        "Testing MessagePipe"
+                    ],
+                    "time": 1,
+                    "executedExpectationsCount": 1
+                },
+                {
+                    "fullName": "Testing MessagePipe TCCP 2 - Valid return for null Value",
+                    "description": "TCCP 2 - Valid return for null Value",
+                    "id": "spec35",
+                    "log": [],
+                    "skipped": false,
+                    "disabled": false,
+                    "pending": false,
+                    "success": true,
+                    "suite": [
+                        "Testing MessagePipe"
+                    ],
+                    "time": 1,
+                    "executedExpectationsCount": 1
+                },
+                {
+                    "fullName": "Testing MessagePipe TCCP 3 - Valid return for valid customerId",
+                    "description": "TCCP 3 - Valid return for valid customerId",
+                    "id": "spec36",
+                    "log": [
+                        "Error: Expected $.length = 3 to equal 2.",
+                        "Expected $[1].customerId = '102' to equal '101'.",
+                        "Expected $[1].no = 2 to equal 3.",
+                        "Unexpected $[2] = Object({ customerId: '101', no: 3 }) in array.",
+                        "    at <Jasmine>",
+                        "    at UserContext.<anonymous> (http://localhost:9880/_karma_webpack_/src/app/test/customerIdPipe.spec.ts:22:54)",
+                        "    at ZoneDelegate.invoke (http://localhost:9880/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:359:1)",
+                        "    at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke (http://localhost:9880/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:308:1)"
+                    ],
+                    "skipped": false,
+                    "disabled": false,
+                    "pending": false,
+                    "success": false,
+                    "suite": [
+                        "Testing MessagePipe"
+                    ],
+                    "time": 4,
+                    "executedExpectationsCount": 1
+                },
+                {
+                    "fullName": "Testing MessagePipe TCCP 4 - Valid return for no matching customerId",
+                    "description": "TCCP 4 - Valid return for no matching customerId",
+                    "id": "spec37",
+                    "log": [
+                        "Error: Expected $.length = 3 to equal 0.",
+                        "Unexpected $[0] = Object({ customerId: '101', no: 1 }) in array.",
+                        "Unexpected $[1] = Object({ customerId: '102', no: 2 }) in array.",
+                        "Unexpected $[2] = Object({ customerId: '101', no: 3 }) in array.",
+                        "    at <Jasmine>",
+                        "    at UserContext.<anonymous> (http://localhost:9880/_karma_webpack_/src/app/test/customerIdPipe.spec.ts:28:54)",
+                        "    at ZoneDelegate.invoke (http://localhost:9880/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:359:1)",
+                        "    at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke (http://localhost:9880/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:308:1)"
+                    ],
+                    "skipped": false,
+                    "disabled": false,
+                    "pending": false,
+                    "success": false,
+                    "suite": [
+                        "Testing MessagePipe"
+                    ],
+                    "time": 2,
+                    "executedExpectationsCount": 1
+                },
+                {
+                    "fullName": "Testing AppComponent TAC 2 - Cheking for proper positioning of routerOutlet",
+                    "description": "TAC 2 - Cheking for proper positioning of routerOutlet",
+                    "id": "spec4",
+                    "log": [
+                        "Error: Expected null not to be null. Tip: To check for deep equality, use .toEqual() instead of .toBe().",
+                        "    at <Jasmine>",
+                        "    at UserContext.<anonymous> (http://localhost:9880/_karma_webpack_/src/app/test/app.component.spec.ts:37:21)",
+                        "    at ZoneDelegate.invoke (http://localhost:9880/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:359:1)",
+                        "    at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke (http://localhost:9880/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:308:1)"
+                    ],
+                    "skipped": false,
+                    "disabled": false,
+                    "pending": false,
+                    "success": false,
+                    "suite": [
+                        "Testing AppComponent"
+                    ],
+                    "time": 141,
+                    "executedExpectationsCount": 1
+                },
+                {
+                    "fullName": "Testing AppComponent TAC 1 - Checking presence of routerOutletTag",
+                    "description": "TAC 1 - Checking presence of routerOutletTag",
+                    "id": "spec3",
+                    "log": [
+                        "Error: Expected null to be truthy.",
+                        "    at <Jasmine>",
+                        "    at UserContext.<anonymous> (http://localhost:9880/_karma_webpack_/src/app/test/app.component.spec.ts:32:29)",
+                        "    at ZoneDelegate.invoke (http://localhost:9880/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:359:1)",
+                        "    at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke (http://localhost:9880/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:308:1)"
+                    ],
+                    "skipped": false,
+                    "disabled": false,
+                    "pending": false,
+                    "success": false,
+                    "suite": [
+                        "Testing AppComponent"
+                    ],
+                    "time": 115,
+                    "executedExpectationsCount": 1
+                },
+                {
+                    "fullName": "BookFlightService Service TBS 2 - HttpClient must be injected in BookFlightService",
+                    "description": "TBS 2 - HttpClient must be injected in BookFlightService",
+                    "id": "spec8",
+                    "log": [],
+                    "skipped": false,
+                    "disabled": false,
+                    "pending": false,
+                    "success": true,
+                    "suite": [
+                        "BookFlightService Service"
+                    ],
+                    "time": 19,
+                    "executedExpectationsCount": 2
+                },
+                {
+                    "fullName": "BookFlightService Service TBS 1 - BookFlightService should be injected",
+                    "description": "TBS 1 - BookFlightService should be injected",
+                    "id": "spec7",
+                    "log": [],
+                    "skipped": false,
+                    "disabled": false,
+                    "pending": false,
+                    "success": true,
+                    "suite": [
+                        "BookFlightService Service"
+                    ],
+                    "time": 16,
+                    "executedExpectationsCount": 1
+                },
+                {
+                    "fullName": "Testing MessagePipe TCFP 4 - Valid return for no matching flightId",
+                    "description": "TCFP 4 - Valid return for no matching flightId",
+                    "id": "spec41",
+                    "log": [
+                        "Error: Expected $.length = 3 to equal 0.",
+                        "Unexpected $[0] = Object({ flightId: '101', no: 1 }) in array.",
+                        "Unexpected $[1] = Object({ flightId: '102', no: 2 }) in array.",
+                        "Unexpected $[2] = Object({ flightId: '101', no: 3 }) in array.",
+                        "    at <Jasmine>",
+                        "    at UserContext.<anonymous> (http://localhost:9880/_karma_webpack_/src/app/test/flightIdPipe.spec.ts:28:52)",
+                        "    at ZoneDelegate.invoke (http://localhost:9880/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:359:1)",
+                        "    at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke (http://localhost:9880/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:308:1)"
+                    ],
+                    "skipped": false,
+                    "disabled": false,
+                    "pending": false,
+                    "success": false,
+                    "suite": [
+                        "Testing MessagePipe"
+                    ],
+                    "time": 2,
+                    "executedExpectationsCount": 1
+                },
+                {
+                    "fullName": "Testing MessagePipe TCFP 2 - Valid return for null Value",
+                    "description": "TCFP 2 - Valid return for null Value",
+                    "id": "spec39",
+                    "log": [],
+                    "skipped": false,
+                    "disabled": false,
+                    "pending": false,
+                    "success": true,
+                    "suite": [
+                        "Testing MessagePipe"
+                    ],
+                    "time": 4,
+                    "executedExpectationsCount": 1
+                },
+                {
+                    "fullName": "Testing MessagePipe TCFP 3 - Valid return for valid flightId",
+                    "description": "TCFP 3 - Valid return for valid flightId",
+                    "id": "spec40",
+                    "log": [
+                        "Error: Expected $.length = 3 to equal 2.",
+                        "Expected $[1].flightId = '102' to equal '101'.",
+                        "Expected $[1].no = 2 to equal 3.",
+                        "Unexpected $[2] = Object({ flightId: '101', no: 3 }) in array.",
+                        "    at <Jasmine>",
+                        "    at UserContext.<anonymous> (http://localhost:9880/_karma_webpack_/src/app/test/flightIdPipe.spec.ts:22:52)",
+                        "    at ZoneDelegate.invoke (http://localhost:9880/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:359:1)",
+                        "    at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke (http://localhost:9880/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:308:1)"
+                    ],
+                    "skipped": false,
+                    "disabled": false,
+                    "pending": false,
+                    "success": false,
+                    "suite": [
+                        "Testing MessagePipe"
+                    ],
+                    "time": 24,
+                    "executedExpectationsCount": 1
+                },
+                {
+                    "fullName": "Testing MessagePipe TCFP 1 - Create an instance of Pipe",
+                    "description": "TCFP 1 - Create an instance of Pipe",
+                    "id": "spec38",
+                    "log": [],
+                    "skipped": false,
+                    "disabled": false,
+                    "pending": false,
+                    "success": true,
+                    "suite": [
+                        "Testing MessagePipe"
+                    ],
+                    "time": 17,
+                    "executedExpectationsCount": 1
+                },
+                {
+                    "fullName": "Testing_View_Flights_Component ViewFlightsComponent : sendFlightData method implemented according to given requirement",
+                    "description": "ViewFlightsComponent : sendFlightData method implemented according to given requirement",
+                    "id": "spec13",
+                    "log": [],
+                    "skipped": false,
+                    "disabled": false,
+                    "pending": false,
+                    "success": true,
+                    "suite": [
+                        "Testing_View_Flights_Component"
+                    ],
+                    "time": 57,
+                    "executedExpectationsCount": 1
+                },
+                {
+                    "fullName": "Testing_View_Flights_Component ViewFlightsComponent should be created",
+                    "description": "ViewFlightsComponent should be created",
+                    "id": "spec12",
+                    "log": [],
+                    "skipped": false,
+                    "disabled": false,
+                    "pending": false,
+                    "success": true,
+                    "suite": [
+                        "Testing_View_Flights_Component"
+                    ],
+                    "time": 38,
+                    "executedExpectationsCount": 1
+                },
+                {
+                    "fullName": "Testing fetching data through UpdateBookingService TBS 5 - bookFlight() should be called using POST method",
+                    "description": "TBS 5 - bookFlight() should be called using POST method",
+                    "id": "spec11",
+                    "log": [
+                        "Error: Expected spy post to have been called.",
+                        "    at <Jasmine>",
+                        "    at UserContext.<anonymous> (http://localhost:9880/_karma_webpack_/src/app/test/book-flight.component.service.spec.ts:73:21)",
+                        "    at TestBedViewEngine.execute (http://localhost:9880/_karma_webpack_/node_modules/@angular/core/fesm2015/testing.js:3791:1)",
+                        "    at UserContext.<anonymous> (http://localhost:9880/_karma_webpack_/node_modules/@angular/core/fesm2015/testing.js:4143:22)"
+                    ],
+                    "skipped": false,
+                    "disabled": false,
+                    "pending": false,
+                    "success": false,
+                    "suite": [
+                        "Testing fetching data through UpdateBookingService"
+                    ],
+                    "time": 18,
+                    "executedExpectationsCount": 1
+                },
+                {
+                    "fullName": "Testing fetching data through UpdateBookingService TBS 4 - BookFlightService bookFlight() should return observable",
+                    "description": "TBS 4 - BookFlightService bookFlight() should return observable",
+                    "id": "spec10",
+                    "log": [
+                        "TypeError: Cannot read property 'subscribe' of undefined",
+                        "    at <Jasmine>",
+                        "    at UserContext.<anonymous> (http://localhost:9880/_karma_webpack_/src/app/test/book-flight.component.service.spec.ts:55:50)",
+                        "    at TestBedViewEngine.execute (http://localhost:9880/_karma_webpack_/node_modules/@angular/core/fesm2015/testing.js:3791:1)",
+                        "    at UserContext.<anonymous> (http://localhost:9880/_karma_webpack_/node_modules/@angular/core/fesm2015/testing.js:4143:22)",
+                        "    at ZoneDelegate.invoke (http://localhost:9880/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:359:1)",
+                        "    at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke (http://localhost:9880/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:308:1)",
+                        "    at ZoneDelegate.invoke (http://localhost:9880/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:358:1)",
+                        "    at Zone.run (http://localhost:9880/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:124:1)",
+                        "    at runInTestZone (http://localhost:9880/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:561:1)",
+                        "    at UserContext.<anonymous> (http://localhost:9880/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:576:1)",
+                        "    at <Jasmine>"
+                    ],
+                    "skipped": false,
+                    "disabled": false,
+                    "pending": false,
+                    "success": false,
+                    "suite": [
+                        "Testing fetching data through UpdateBookingService"
+                    ],
+                    "time": 22,
+                    "executedExpectationsCount": 1
+                },
+                {
+                    "fullName": "Testing fetching data through UpdateBookingService TBS 3 - BookFlightService should be created",
+                    "description": "TBS 3 - BookFlightService should be created",
+                    "id": "spec9",
+                    "log": [],
+                    "skipped": false,
+                    "disabled": false,
+                    "pending": false,
+                    "success": true,
+                    "suite": [
+                        "Testing fetching data through UpdateBookingService"
+                    ],
+                    "time": 15,
+                    "executedExpectationsCount": 1
+                },
+                {
+                    "fullName": "Testing fetching data through UpdateBookingService TUS 3 - UpdateBookingService should be created",
+                    "description": "TUS 3 - UpdateBookingService should be created",
+                    "id": "spec50",
+                    "log": [],
+                    "skipped": false,
+                    "disabled": false,
+                    "pending": false,
+                    "success": true,
+                    "suite": [
+                        "Testing fetching data through UpdateBookingService"
+                    ],
+                    "time": 19,
+                    "executedExpectationsCount": 1
+                },
+                {
+                    "fullName": "Testing fetching data through UpdateBookingService TUS 4 - UpdateBookingService updateBooking() should return observable",
+                    "description": "TUS 4 - UpdateBookingService updateBooking() should return observable",
+                    "id": "spec51",
+                    "log": [
+                        "TypeError: Cannot read property 'subscribe' of undefined",
+                        "    at <Jasmine>",
+                        "    at UserContext.<anonymous> (http://localhost:9880/_karma_webpack_/src/app/test/update-booking.component.service.spec.ts:53:53)",
+                        "    at TestBedViewEngine.execute (http://localhost:9880/_karma_webpack_/node_modules/@angular/core/fesm2015/testing.js:3791:1)",
+                        "    at UserContext.<anonymous> (http://localhost:9880/_karma_webpack_/node_modules/@angular/core/fesm2015/testing.js:4143:22)",
+                        "    at ZoneDelegate.invoke (http://localhost:9880/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:359:1)",
+                        "    at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke (http://localhost:9880/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:308:1)",
+                        "    at ZoneDelegate.invoke (http://localhost:9880/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:358:1)",
+                        "    at Zone.run (http://localhost:9880/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:124:1)",
+                        "    at runInTestZone (http://localhost:9880/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:561:1)",
+                        "    at UserContext.<anonymous> (http://localhost:9880/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:576:1)",
+                        "    at <Jasmine>"
+                    ],
+                    "skipped": false,
+                    "disabled": false,
+                    "pending": false,
+                    "success": false,
+                    "suite": [
+                        "Testing fetching data through UpdateBookingService"
+                    ],
+                    "time": 27,
+                    "executedExpectationsCount": 1
+                },
+                {
+                    "fullName": "Testing fetching data through UpdateBookingService TOS 5 - updateBooking() should be called using PUT method",
+                    "description": "TOS 5 - updateBooking() should be called using PUT method",
+                    "id": "spec52",
+                    "log": [
+                        "Error: Expected spy put to have been called.",
+                        "    at <Jasmine>",
+                        "    at UserContext.<anonymous> (http://localhost:9880/_karma_webpack_/src/app/test/update-booking.component.service.spec.ts:69:21)",
+                        "    at TestBedViewEngine.execute (http://localhost:9880/_karma_webpack_/node_modules/@angular/core/fesm2015/testing.js:3791:1)",
+                        "    at UserContext.<anonymous> (http://localhost:9880/_karma_webpack_/node_modules/@angular/core/fesm2015/testing.js:4143:22)"
+                    ],
+                    "skipped": false,
+                    "disabled": false,
+                    "pending": false,
+                    "success": false,
+                    "suite": [
+                        "Testing fetching data through UpdateBookingService"
+                    ],
+                    "time": 21,
+                    "executedExpectationsCount": 1
+                },
+                {
+                    "fullName": "Update Booking Component TUC 4 - Bookings : Should populate error message into errorMessage property",
+                    "description": "TUC 4 - Bookings : Should populate error message into errorMessage property",
+                    "id": "spec45",
+                    "log": [
+                        "Error: Expected undefined to be 'Updation failed'.",
+                        "    at <Jasmine>",
+                        "    at UserContext.<anonymous> (http://localhost:9880/_karma_webpack_/src/app/test/update-booking.compoent.ts.spec.ts:71:40)",
+                        "    at ZoneDelegate.invoke (http://localhost:9880/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:359:1)",
+                        "    at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke (http://localhost:9880/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:308:1)"
+                    ],
+                    "skipped": false,
+                    "disabled": false,
+                    "pending": false,
+                    "success": false,
+                    "suite": [
+                        "Update Booking Component"
+                    ],
+                    "time": 45,
+                    "executedExpectationsCount": 2
+                },
+                {
+                    "fullName": "Update Booking Component TUC 6 - Bookings : successMessage property should be null in error case",
+                    "description": "TUC 6 - Bookings : successMessage property should be null in error case",
+                    "id": "spec47",
+                    "log": [
+                        "Error: Expected undefined to be null. Tip: To check for deep equality, use .toEqual() instead of .toBe().",
+                        "    at <Jasmine>",
+                        "    at UserContext.<anonymous> (http://localhost:9880/_karma_webpack_/src/app/test/update-booking.compoent.ts.spec.ts:85:42)",
+                        "    at ZoneDelegate.invoke (http://localhost:9880/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:359:1)",
+                        "    at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke (http://localhost:9880/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:308:1)"
+                    ],
+                    "skipped": false,
+                    "disabled": false,
+                    "pending": false,
+                    "success": false,
+                    "suite": [
+                        "Update Booking Component"
+                    ],
+                    "time": 41,
+                    "executedExpectationsCount": 1
+                },
+                {
+                    "fullName": "Update Booking Component TUC 1 - UpdateBooking : Component should be created",
+                    "description": "TUC 1 - UpdateBooking : Component should be created",
+                    "id": "spec42",
+                    "log": [],
+                    "skipped": false,
+                    "disabled": false,
+                    "pending": false,
+                    "success": true,
+                    "suite": [
+                        "Update Booking Component"
+                    ],
+                    "time": 49,
+                    "executedExpectationsCount": 1
+                },
+                {
+                    "fullName": "Update Booking Component TUC 2 - Bookings : Should invoke delete() method of viewDetailsService",
+                    "description": "TUC 2 - Bookings : Should invoke delete() method of viewDetailsService",
+                    "id": "spec43",
+                    "log": [],
+                    "skipped": false,
+                    "disabled": false,
+                    "pending": false,
+                    "success": true,
+                    "suite": [
+                        "Update Booking Component"
+                    ],
+                    "time": 40,
+                    "executedExpectationsCount": 0
+                },
+                {
+                    "fullName": "Update Booking Component TUC 3 - Bookings : Should populate success message into successMessage property",
+                    "description": "TUC 3 - Bookings : Should populate success message into successMessage property",
+                    "id": "spec44",
+                    "log": [
+                        "Error: Expected undefined to be 'Success message is populated'.",
+                        "    at <Jasmine>",
+                        "    at UserContext.<anonymous> (http://localhost:9880/_karma_webpack_/src/app/test/update-booking.compoent.ts.spec.ts:63:42)",
+                        "    at ZoneDelegate.invoke (http://localhost:9880/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:359:1)",
+                        "    at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke (http://localhost:9880/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:308:1)"
+                    ],
+                    "skipped": false,
+                    "disabled": false,
+                    "pending": false,
+                    "success": false,
+                    "suite": [
+                        "Update Booking Component"
+                    ],
+                    "time": 48,
+                    "executedExpectationsCount": 2
+                },
+                {
+                    "fullName": "Update Booking Component TUC 5 - Bookings : errorMessage property should be null in success case",
+                    "description": "TUC 5 - Bookings : errorMessage property should be null in success case",
+                    "id": "spec46",
+                    "log": [
+                        "Error: Expected undefined to be null. Tip: To check for deep equality, use .toEqual() instead of .toBe().",
+                        "    at <Jasmine>",
+                        "    at UserContext.<anonymous> (http://localhost:9880/_karma_webpack_/src/app/test/update-booking.compoent.ts.spec.ts:78:40)",
+                        "    at ZoneDelegate.invoke (http://localhost:9880/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:359:1)",
+                        "    at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke (http://localhost:9880/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:308:1)"
+                    ],
+                    "skipped": false,
+                    "disabled": false,
+                    "pending": false,
+                    "success": false,
+                    "suite": [
+                        "Update Booking Component"
+                    ],
+                    "time": 50,
+                    "executedExpectationsCount": 1
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,59 @@
+
+<!-- Load view-flights component here -->
+<app-view-flights (flightToEmit)="showForm($event)" *ngIf="!flightDetails"></app-view-flights>
+
+<div class="row" *ngIf="flightDetails">
+    <div class="col-md-4 offset-md-4">
+        <div class="card">
+            <form [formGroup]="bookingForm" (ngSubmit)="book()">
+                <div class="card-header">
+                    <h2>Booking for {{flightDetails.AircraftName}}</h2>
+                </div>
+                <div class="card-body">
+                    <div class="form-group">
+                        <label for="passengerName">Passenger Name</label>
+                        <input class="form-control" type="text" formControlName="passengerName" id="passengerName">
+                    </div>
+                    <div id="passengerNameError">
+                        <span *ngIf="bookingForm.controls.passengerName.errors?.required && bookingForm.controls.passengerName.dirty" class="text-danger">Field required</span>
+                        <span *ngIf="bookingForm.controls.passengerName.errors?.pattern && bookingForm.controls.passengerName.dirty" class="text-danger">Name error</span>
+                    </div>
+                    <div class="form-group">
+                        <label for="noOfTickets">Number of Tickets</label>
+                        <input class="form-control" type="number" formControlName="noOfTickets" id="noOfTickets">
+                    </div>
+                    <div id="noOfTicketsError">
+                        <span *ngIf="bookingForm.controls.noOfTickets.errors?.required && bookingForm.controls.noOfTickets.dirty" class="text-danger">Field required</span>
+                        <span *ngIf="bookingForm.controls.noOfTickets.errors?.min && bookingForm.controls.noOfTickets.dirty" class="text-danger">Minimum Tickets is 1</span>
+                    </div>
+                    <div class="form-group">
+                        <label for="flightId">Flight Id</label>
+                        <input type="text" class="form-control" formControlName="flightId" id="flightId">
+                    </div>
+                    <div class="form-group">
+                        <label for="customerId">Customer Id</label>
+                        <input type="text" class="form-control" formControlName="customerId" id="customerId">
+                    </div>
+                    <div class="customerIdError">
+                        <span *ngIf="bookingForm.controls.customerId.errors?.required && bookingForm.controls.customerId.dirty" class="text-danger">Field required</span>
+                        <span *ngIf="bookingForm.controls.customerId.errors?.customerIdErr && bookingForm.controls.customerId.dirty" class="text-danger">{{bookingForm.controls.customerId.errors.customerIdErr.message}}</span>
+                    </div>
+
+                </div>
+                <div class="card-footer ">
+                    <button class="btn btn-block btn-primary" [disabled]="!bookingForm.valid">Book</button>
+                    <a class="text-center text-primary" (click)="flightDetails=null">Check out flights?</a>
+                    <div id="errorMessage" *ngIf="errorMessage" class="text-danger">
+                        {{errorMessage}}
+                    </div>
+                    <div id="successMessage" *ngIf="successMessage" class="text-success">
+                        {{successMessage}}
+                    </div>
+                </div>
+            </form>
+        </div>
+       <!-- Code the form bookingForm here -->
+
+    </div>
+</div>
+  

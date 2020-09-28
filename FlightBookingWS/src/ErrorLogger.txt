@@ -1,0 +1,206 @@
+Mon Jan 06 2020 11:44:00 GMT+0530 (India Standard Time) - TypeError: Cannot read property 'length' of undefined
+    at Object.Validator.validateFlightId (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\src\utilities\validator.js:5:18)
+    at Object.fBookingService.bookFlight (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\src\service\users.js:7:15)
+    at routing.post (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\src\routes\routing.js:24:23)
+    at Layer.handle [as handle_request] (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\index.js:335:12)
+Mon Jan 06 2020 11:46:14 GMT+0530 (India Standard Time) - TypeError: Cannot read property 'length' of undefined
+    at Object.Validator.validateFlightId (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\src\utilities\validator.js:5:18)
+    at Object.fBookingService.bookFlight (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\src\service\users.js:7:15)
+    at routing.post (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\src\routes\routing.js:24:23)
+    at Layer.handle [as handle_request] (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\index.js:335:12)
+Mon Jan 06 2020 11:46:32 GMT+0530 (India Standard Time) - TypeError: Cannot read property 'length' of undefined
+    at Object.Validator.validateFlightId (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\src\utilities\validator.js:5:18)
+    at Object.fBookingService.bookFlight (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\src\service\users.js:7:15)
+    at routing.post (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\src\routes\routing.js:24:23)
+    at Layer.handle [as handle_request] (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\index.js:335:12)
+Mon Jan 06 2020 11:48:21 GMT+0530 (India Standard Time) - TypeError: Cannot read property 'length' of undefined
+    at Object.Validator.validateFlightId (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\src\utilities\validator.js:5:18)
+    at Object.fBookingService.bookFlight (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\src\service\users.js:7:15)
+    at routing.post (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\src\routes\routing.js:24:23)
+    at Layer.handle [as handle_request] (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\index.js:335:12)
+Mon Jan 06 2020 11:49:52 GMT+0530 (India Standard Time) - TypeError: Cannot read property 'length' of undefined
+    at Object.Validator.validateFlightId (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\src\utilities\validator.js:5:18)
+    at Object.fBookingService.bookFlight (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\src\service\users.js:7:15)
+    at routing.post (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\src\routes\routing.js:24:23)
+    at Layer.handle [as handle_request] (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\express\lib\router\index.js:335:12)
+Mon Jan 06 2020 11:51:09 GMT+0530 (India Standard Time) - Error: Sorry for the Inconvinience... IND-102 is cancelled!!
+    at db.checkAvailability.then (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\src\service\users.js:20:31)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Mon Jan 06 2020 11:51:29 GMT+0530 (India Standard Time) - Error: Insufficient Wallet Amount. Add more Rs.600 to continue booking
+    at db.checkAvailability.then (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\src\service\users.js:35:35)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Mon Jan 06 2020 11:55:47 GMT+0530 (India Standard Time) - Error: Sorry for the Inconvinience... IND-102 has been cancelled!!
+    at db.checkBooking.then (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\src\service\users.js:109:23)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Mon Jan 06 2020 11:55:59 GMT+0530 (India Standard Time) - Error: Flight is already Full. Can't Book more tickets
+    at db.checkBooking.then (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\src\service\users.js:113:23)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Mon Jan 06 2020 12:00:20 GMT+0530 (India Standard Time) - Error: Insufficient Wallet Amount. Add more Rs.600 to continue booking
+    at db.checkAvailability.then (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\src\service\users.js:35:35)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Mon Jan 06 2020 12:00:42 GMT+0530 (India Standard Time) - MongoError: E11000 duplicate key error collection: FlightBooking_DB.Flight index: bookings.bookingId_1 dup key: { : null }
+    at Function.create (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\mongodb\lib\core\error.js:44:12)
+    at toError (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\mongodb\lib\utils.js:150:22)
+    at coll.s.topology.update (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\mongodb\lib\operations\common_functions.js:377:39)
+    at C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\mongodb\lib\core\connection\pool.js:405:18
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+Mon Jan 06 2020 12:00:54 GMT+0530 (India Standard Time) - MongoError: E11000 duplicate key error collection: FlightBooking_DB.Flight index: bookings.bookingId_1 dup key: { : null }
+    at Function.create (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\mongodb\lib\core\error.js:44:12)
+    at toError (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\mongodb\lib\utils.js:150:22)
+    at coll.s.topology.update (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\mongodb\lib\operations\common_functions.js:377:39)
+    at C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\mongodb\lib\core\connection\pool.js:405:18
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+Mon Jan 06 2020 12:01:05 GMT+0530 (India Standard Time) - MongoError: E11000 duplicate key error collection: FlightBooking_DB.Flight index: bookings.bookingId_1 dup key: { : null }
+    at Function.create (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\mongodb\lib\core\error.js:44:12)
+    at toError (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\mongodb\lib\utils.js:150:22)
+    at coll.s.topology.update (C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\mongodb\lib\operations\common_functions.js:377:39)
+    at C:\Users\chandan.yadav\Desktop\Angular-Integrated\FlightBookingWS\node_modules\mongodb\lib\core\connection\pool.js:405:18
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+Mon Jan 13 2020 15:00:06 GMT+0530 (India Standard Time) - Error: Customer not registered. Register to proceed
+    at C:\Users\tejaswini.varthalur\Desktop\InfyAirlines-FA3-Angular\FlightBookingWS\src\service\users.js:10:23
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+Tue Jan 14 2020 11:33:13 GMT+0530 (India Standard Time) - Error: Customer not registered. Register to proceed
+    at C:\Users\tejaswini.varthalur\Desktop\InfyAirlines-FA3-Angular\FlightBookingWS\src\service\users.js:10:23
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+Tue Jan 14 2020 11:34:20 GMT+0530 (India Standard Time) - Error: Customer not registered. Register to proceed
+    at C:\Users\tejaswini.varthalur\Desktop\InfyAirlines-FA3-Angular\FlightBookingWS\src\service\users.js:10:23
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+Mon Feb 10 2020 11:25:09 GMT+0530 (India Standard Time) - Error: Customer not registered. Register to proceed
+    at C:\Users\tejaswini.varthalur\Desktop\IntAssArtifacts_Angular\FlightBookingWS\src\service\users.js:10:23
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+Mon Feb 10 2020 11:25:19 GMT+0530 (India Standard Time) - Error: Insufficient Wallet Amount. Add more Rs.750 to continue booking
+    at C:\Users\tejaswini.varthalur\Desktop\IntAssArtifacts_Angular\FlightBookingWS\src\service\users.js:35:35
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+Mon Feb 10 2020 11:27:17 GMT+0530 (India Standard Time) - Error: Sorry for the Inconvinience... IND-103 has been cancelled!!
+    at C:\Users\tejaswini.varthalur\Desktop\IntAssArtifacts_Angular\FlightBookingWS\src\service\users.js:109:23
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+Fri Jun 26 2020 09:06:59 GMT+0530 (India Standard Time) - Error: Compilation error in code!!
+    at C:\Users\DELL\Desktop\FlightBookingWS\src\parser.js:69:19
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Fri Jun 26 2020 09:08:32 GMT+0530 (India Standard Time) - Error: Customer not registered. Register to proceed
+    at C:\Users\DELL\Desktop\FlightBookingWS\src\service\users.js:10:23
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Fri Jun 26 2020 09:09:11 GMT+0530 (India Standard Time) - Error: Insufficient Wallet Amount. Add more Rs.750 to continue booking
+    at C:\Users\DELL\Desktop\FlightBookingWS\src\service\users.js:35:35
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Fri Jun 26 2020 09:09:16 GMT+0530 (India Standard Time) - Error: Insufficient Wallet Amount. Add more Rs.750 to continue booking
+    at C:\Users\DELL\Desktop\FlightBookingWS\src\service\users.js:35:35
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Fri Jun 26 2020 09:10:03 GMT+0530 (India Standard Time) - Error: Insufficient Wallet Amount. Add more Rs.750 to continue booking
+    at C:\Users\DELL\Desktop\FlightBookingWS\src\service\users.js:35:35
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Fri Jun 26 2020 09:10:41 GMT+0530 (India Standard Time) - Error: Compilation error in code!!
+    at C:\Users\DELL\Desktop\FlightBookingWS\src\parser.js:69:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Fri Jun 26 2020 15:29:25 GMT+0530 (India Standard Time) - Error: Insufficient Wallet Amount. Add more Rs.750 to continue booking
+    at C:\Users\DELL\Desktop\FlightBookingWS\src\service\users.js:35:35
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Fri Jun 26 2020 15:30:45 GMT+0530 (India Standard Time) - Error: Compilation error in code!!
+    at C:\Users\DELL\Desktop\FlightBookingWS\src\parser.js:69:19
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Fri Jun 26 2020 17:33:03 GMT+0530 (India Standard Time) - MongoError: E11000 duplicate key error collection: FlightBooking_DB.Flight index: bookings.bookingId_1 dup key: { bookings.bookingId: null }
+    at Function.create (C:\Users\DELL\Desktop\FlightBookingWS\node_modules\mongodb\lib\core\error.js:44:12)
+    at toError (C:\Users\DELL\Desktop\FlightBookingWS\node_modules\mongodb\lib\utils.js:150:22)
+    at C:\Users\DELL\Desktop\FlightBookingWS\node_modules\mongodb\lib\operations\common_functions.js:376:39
+    at C:\Users\DELL\Desktop\FlightBookingWS\node_modules\mongodb\lib\core\connection\pool.js:420:18
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+Fri Jun 26 2020 17:33:35 GMT+0530 (India Standard Time) - MongoError: E11000 duplicate key error collection: FlightBooking_DB.Flight index: bookings.bookingId_1 dup key: { bookings.bookingId: null }
+    at Function.create (C:\Users\DELL\Desktop\FlightBookingWS\node_modules\mongodb\lib\core\error.js:44:12)
+    at toError (C:\Users\DELL\Desktop\FlightBookingWS\node_modules\mongodb\lib\utils.js:150:22)
+    at C:\Users\DELL\Desktop\FlightBookingWS\node_modules\mongodb\lib\operations\common_functions.js:376:39
+    at C:\Users\DELL\Desktop\FlightBookingWS\node_modules\mongodb\lib\core\connection\pool.js:420:18
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+Fri Jun 26 2020 17:33:38 GMT+0530 (India Standard Time) - MongoError: E11000 duplicate key error collection: FlightBooking_DB.Flight index: bookings.bookingId_1 dup key: { bookings.bookingId: null }
+    at Function.create (C:\Users\DELL\Desktop\FlightBookingWS\node_modules\mongodb\lib\core\error.js:44:12)
+    at toError (C:\Users\DELL\Desktop\FlightBookingWS\node_modules\mongodb\lib\utils.js:150:22)
+    at C:\Users\DELL\Desktop\FlightBookingWS\node_modules\mongodb\lib\operations\common_functions.js:376:39
+    at C:\Users\DELL\Desktop\FlightBookingWS\node_modules\mongodb\lib\core\connection\pool.js:420:18
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+Fri Jun 26 2020 17:34:44 GMT+0530 (India Standard Time) - MongoError: E11000 duplicate key error collection: FlightBooking_DB.Flight index: bookings.bookingId_1 dup key: { bookings.bookingId: null }
+    at Function.create (C:\Users\DELL\Desktop\FlightBookingWS\node_modules\mongodb\lib\core\error.js:44:12)
+    at toError (C:\Users\DELL\Desktop\FlightBookingWS\node_modules\mongodb\lib\utils.js:150:22)
+    at C:\Users\DELL\Desktop\FlightBookingWS\node_modules\mongodb\lib\operations\common_functions.js:376:39
+    at C:\Users\DELL\Desktop\FlightBookingWS\node_modules\mongodb\lib\core\connection\pool.js:420:18
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+Fri Jun 26 2020 17:34:54 GMT+0530 (India Standard Time) - MongoError: E11000 duplicate key error collection: FlightBooking_DB.Flight index: bookings.bookingId_1 dup key: { bookings.bookingId: null }
+    at Function.create (C:\Users\DELL\Desktop\FlightBookingWS\node_modules\mongodb\lib\core\error.js:44:12)
+    at toError (C:\Users\DELL\Desktop\FlightBookingWS\node_modules\mongodb\lib\utils.js:150:22)
+    at C:\Users\DELL\Desktop\FlightBookingWS\node_modules\mongodb\lib\operations\common_functions.js:376:39
+    at C:\Users\DELL\Desktop\FlightBookingWS\node_modules\mongodb\lib\core\connection\pool.js:420:18
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+Sat Jun 27 2020 15:44:18 GMT+0530 (India Standard Time) - Error: Insufficient Wallet Amount. Add more Rs.750 to continue booking
+    at C:\Users\DELL\Desktop\FlightBookingWS\src\service\users.js:128:31
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sat Jun 27 2020 15:44:40 GMT+0530 (India Standard Time) - Error: Insufficient Wallet Amount. Add more Rs.600 to continue booking
+    at C:\Users\DELL\Desktop\FlightBookingWS\src\service\users.js:128:31
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sat Jun 27 2020 15:47:04 GMT+0530 (India Standard Time) - Error: Sorry for the Inconvinience... IND-103 has been cancelled!!
+    at C:\Users\DELL\Desktop\FlightBookingWS\src\service\users.js:109:23
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+Sat Jun 27 2020 15:56:41 GMT+0530 (India Standard Time) - Error: Compilation error in code!!
+    at C:\Users\DELL\Desktop\FlightBookingWS\src\parser.js:69:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)

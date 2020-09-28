@@ -1,0 +1,19 @@
+<nav class="navbar navbar-expand-sm bg-info navbar-dark">
+  <div class="navbar-header">
+    <a class="nav-item active" class="navbar-brand" href="#">Infy Airlines</a>
+  </div>
+  <ul class="nav navbar-nav">
+    <li class="nav-item active">
+      <a [routerLink]="['/book']" (click)="agreed(1)" class="nav-link">Book Flight</a>
+    </li>
+    <li class="nav-item active">
+      <a [routerLink]="['/view']" (click)="agreed(2)" class="nav-link">View Details</a>
+    </li>
+  </ul>
+</nav>
+<br>
+<div class="container-fluid">
+<!-- Include the router outlet to load all components -->
+<router-outlet></router-outlet>
+</div>
+<app-verify></app-verify>

@@ -1,0 +1,29 @@
+.error-message{
+    color: red
+}
+
+.success{
+color:green;
+font-size:"20px"
+}
+
+.error{
+	color:red;
+font-size:"20px"
+}
+
+
+.card {
+    padding: 3%;
+    font-family: cursive;
+    color: orange;
+    font-size: 35;
+    font-weight: bolder;
+    margin-left:7%;
+    margin-bottom: 3%;
+    transform: rotate();
+}
+.jumbotron{
+    background-color: rgba(207, 227, 246,0.7);
+
+}

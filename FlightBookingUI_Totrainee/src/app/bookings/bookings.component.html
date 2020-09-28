@@ -1,0 +1,40 @@
+<!-- display all available bookings here in cards -->
+<div *ngIf="errorMessage" class="text-danger text-center">
+    {{errorMessage}}
+</div>
+<div *ngIf="successMessage" class="text-success text-center">
+    {{successMessage}}
+</div>
+<div class="row">
+    <div class="col-md-4" *ngFor="let booking of bookingDetails">
+        <div class="card">
+            <div class="card-header">
+                <div class=" text-center card-title">
+                    {{booking.flightId}}
+                </div>
+                <div class=" text-center card-subtitle">
+                   Booking ID: {{booking.bookingId}}
+                </div>
+            </div>
+            <table class="table card-body">
+                <tr>
+                    <th>Customer Id:</th>
+                    <td>{{booking.customerId}}</td>
+                </tr>
+                <tr>
+                    <th>No of Tickets:</th>
+                    <td>{{booking.noOfTickets}}</td>
+                </tr>
+                <tr>
+                    <th>Booking Cost:</th>
+                    <td>{{booking.bookingCost}}</td>
+                </tr>
+            </table>
+            <div class="card-footer">
+                <button [disabled]="booking.bookingCost>=3000" (click)="delete(booking.bookingId)" class="btn btn-danger">Delete</button>
+                &nbsp;
+                <button (click)="updateBooking(booking)" class="btn btn-success">Update</button>
+            </div>
+        </div>
+    </div>
+</div>
